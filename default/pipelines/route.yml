@@ -9,7 +9,7 @@ comments:
     index: 2
 routes:
   - id: u1pzGV
-    name: Cribl O365 Message Trace
+    name: cribl_o365_message_trace
     final: true
     disabled: false
     pipeline: cribl_o365_msg_trace
