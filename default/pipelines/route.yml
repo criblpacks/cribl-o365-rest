@@ -9,10 +9,10 @@ comments:
     index: 2
 routes:
   - id: u1pzGV
-    name: O365 Message Trace
+    name: Cribl O365 Message Trace
     final: true
     disabled: false
-    pipeline: o365_msg_trace
+    pipeline: cribl_o365_msg_trace
     description: Base route for O365 Message Trace Events
     enableOutputExpression: false
     outputExpression: null
