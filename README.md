@@ -16,11 +16,11 @@ The pack also currently includes three forms of outputs:
 
 The O365 Rest Collector pack allows for events to be sent from the O365 Message Trace API endpoint and normalized into the proper format for the required destinations. To use this pack, follow these steps:
 
-1. Configure the Pack This pack includes several functions that can help reduce events. Please make sure you evaluate the functions before enabling, to ensure vital data is not missed. 
+1. This pack includes several functions that can help reduce events. Please make sure you evaluate the functions before enabling, to ensure vital data is not missed. 
 
 2. Configure the Office 365 Message Trace Source, detailed instructions for configuring the source can be found at https://docs.cribl.io/stream/sources-office365-msg-trace/
 
-3. Connect the Pack to the Office 365 Message Trace source on the Global Routes page where you can add a new route, specify a filter expression for the new Office 365 Message Trace source and choose the cribl-o365-rest pack in the Pipeline dropdown.
+3. Connect the Pack to the Office 365 Message Trace source on the Global Routes page where you can add a new route, specify a filter expression for the new Office 365 Message Trace source (i.e. `__inputId.startsWith('office365_msg_trace')`) and choose the cribl-o365-rest pack in the Pipeline dropdown.
 
 Additionally, several output formats are available to be selected. Please only enable one output, as enabling multiple may break the output formatting.
 
