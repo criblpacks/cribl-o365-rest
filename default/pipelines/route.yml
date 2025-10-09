@@ -2,7 +2,7 @@ id: default
 groups: {}
 comments:
   - id: ZNtRjE
-    comment: Matches JSON events coming from collector
+    comment: Matches JSON events coming from O365 Message Trace Collector
     index: 0
   - id: oPO7AT
     comment: Something went wrong. We shouldn't be here
@@ -16,7 +16,7 @@ routes:
     description: Base route for O365 Message Trace Events
     enableOutputExpression: false
     outputExpression: null
-    filter: /MessageTraceId/.test(_raw)
+    filter: __packsource == 'cribl-o365-rest-io.o365-msg-trace-api'
     clones: []
     output: default
   - id: default

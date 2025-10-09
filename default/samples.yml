@@ -1,3 +1,9 @@
+w25nRZ:
+  sampleName: o365_msg_trace.log
+  created: 1753717609375
+  isPackOnly: true
+  size: 63895
+  numEvents: 50
 bxGVkT:
   sampleName: cribl_o365_msg_trace.log
   created: 1754077936928
